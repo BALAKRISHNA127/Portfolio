@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V. Narendra Reddy - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">NR</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1>V. Narendra Reddy</h1>
+            <h2>Computer Science Engineering Student</h2>
+            <p>Final Year B.Tech CSE @ Bharath University</p>
+            <p class="cgpa">CGPA: 8.9/10</p>
+        </div>
+    </section>
+
+    <section id="about" class="about slide-in">
+        <h2>About Me</h2>
+        <p>I'm a final year Computer Science Engineering student at Bharath University with a strong foundation in
+            programming and problem-solving. My academic excellence is reflected in my CGPA of 8.9/10, and I'm
+            passionate about creating innovative solutions using technology.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Advanced Skills</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML & CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>Figma</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Git</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Basic Knowledge</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Power BI</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 55%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" onclick="openProject('dog-breed')">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1" alt="Dog Breed Project">
+                <h3>Dog Breed Identification</h3>
+                <p>Deep learning project using PyTorch & CNN</p>
+            </div>
+            <div class="project-card" onclick="openProject('chatgpt')">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="ChatGPT Clone">
+                <h3>ChatGPT Clone</h3>
+                <p>Web application using ChatGPT API</p>
+            </div>
+            <div class="project-card" onclick="openProject('music-app')">
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745" alt="Music App">
+                <h3>Music App Interface</h3>
+                <p>Interactive UI design in Figma</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="social-links">
+            <a href="mailto:your.email@example.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+                Email
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+            <a href="https://leetcode.com/yourusername" target="_blank" class="social-link">
+                <i class="fas fa-code"></i>
+                LeetCode
+            </a>
+        </div>
+    </section>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
