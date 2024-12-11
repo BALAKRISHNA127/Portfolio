@@ -31,7 +31,7 @@ const projectDetails = {
             <h3>Key Features</h3>
             <ul>
                 <li>Real-time breed identification</li>
-                <li>High accuracy classification</li>
+                <li>Increased accuracy for classification</li>
                 <li>Support for multiple dog breeds</li>
                 <li>Visual result presentation</li>
             </ul>
@@ -51,7 +51,7 @@ const projectDetails = {
             <h3>Technologies Used</h3>
             <ul>
                 <li>HTML5</li>
-                <li>CSS3</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
                 <li>ChatGPT API</li>
             </ul>
@@ -59,9 +59,7 @@ const projectDetails = {
             <h3>Key Features</h3>
             <ul>
                 <li>Real-time chat interface</li>
-                <li>Message history</li>
-                <li>Response streaming</li>
-                <li>Mobile-responsive design</li>
+                <li>responsive design</li>
             </ul>
             
             <div class="project-images">
@@ -74,20 +72,17 @@ const projectDetails = {
         title: 'Music App Interface',
         description: `
             <h3>Project Overview</h3>
-            <p>A modern music application interface designed in Figma with interactive elements and user-friendly navigation.</p>
+            <p>A modern music application user interface designed in Figma with interactive elements and user-friendly navigation.</p>
             
             <h3>Design Elements</h3>
             <ul>
-                <li>Custom playlist management</li>
                 <li>Interactive music player</li>
-                <li>User profile customization</li>
                 <li>Seamless navigation flow</li>
             </ul>
             
             <h3>Key Features</h3>
             <ul>
                 <li>Dark mode interface</li>
-                <li>Gesture-based interactions</li>
                 <li>Animated transitions</li>
                 <li>Responsive layouts</li>
             </ul>
