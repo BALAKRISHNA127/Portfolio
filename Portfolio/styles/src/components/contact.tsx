@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin} from 'lucide-react';
 
 export function Contact() {
   const [ref, inView] = useInView({
@@ -28,11 +28,10 @@ export function Contact() {
         
         <div className="flex justify-center gap-8">
           {[
-            { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' },
-            { icon: Github, href: 'https://github.com', label: 'GitHub' },
-            { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-            { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-          ].map((social, index) => (
+            { icon: Mail, href: 'narendrareddyvennapusa20@gmail.com', label: 'Email' },
+            { icon: Github, href: 'https://github.com/VNReddy-20', label: 'GitHub' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/narendra-reddy-vennapusa-673a3728b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkev%2BVnRSRxCQosavlxP5hQ%3D%3D', label: 'LinkedIn' },
+            ].map((social, index) => (
             <motion.a
               key={social.label}
               href={social.href}
